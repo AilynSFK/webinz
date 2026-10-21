@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Portofolio - webinz</title>
+    <link rel="icon" type="image/png" href="webinz-logo-hijau-bulat.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">web<span>inz</span>.</a>
+            
+            <button class="hamburger" id="hamburger" aria-label="Buka navigasi">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html#beranda" class="nav-link">Beranda</a></li>
+                <li><a href="index.html#tentang" class="nav-link">Tentang Kami</a></li>
+                <li><a href="index.html#harga" class="nav-link">Paket Harga</a></li>
+                <li><a href="portofolio-webinz.html" class="nav-link active-link">Portofolio</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Header Portofolio -->
+    <section class="portfolio-header">
+        <div class="section-container">
+            <h1>Karya Terbaik Kami</h1>
+            <p>Jelajahi berbagai website yang telah kami rakit untuk membantu UMKM dan bisnis bersaing di era digital.</p>
+        </div>
+    </section>
+
+    <section class="portfolio-section">
+        <div class="section-container">
+            
+           
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="landing">Landing Page</button>
+                <button class="filter-btn" data-filter="bisnis">Web Bisnis</button>
+                <button class="filter-btn" data-filter="inventaris">Inventaris Manajemen</button>
+            </div>
+
+            
+            <div class="portfolio-grid">
+                
+                <!-- Item 1 -->
+                <div class="portfolio-card" data-category="inventaris">
+                    <div class="portfolio-img">
+                        <img src="" alt="Toko Online Sepatu">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-tag">Inventaris Manajemen</span>
+                        <h3>SneakerZone ID</h3>
+                        <p>Website e-commerce sepatu dengan fitur keranjang dan kalkulasi ongkir otomatis.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="portfolio-card" data-category="landing">
+                    <div class="portfolio-img">
+                        <img src="" alt="Landing Page Event">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-tag">Landing Page</span>
+                        <h3>TechSummit 2026</h3>
+                        <p>Halaman registrasi pendaftaran acara seminar teknologi tingkat nasional.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="portfolio-card" data-category="bisnis">
+                    <div class="portfolio-img">
+                        <img src="" alt="Web Bisnis Arsitektur">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-tag">Web Bisnis</span>
+                        <h3>Nusantara Arch</h3>
+                        <p>Website company profile modern untuk biro arsitektur dan kontraktor.</p>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="portfolio-card" data-category="inventaris">
+                    <div class="portfolio-img">
+                        <img src="" alt="Toko Kosmetik">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-tag">Inventaris Manajemen</span>
+                        <h3>GlowBeauty</h3>
+                        <p>Katalog produk kosmetik dengan checkout langsung menuju WhatsApp admin.</p>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="portfolio-card" data-category="landing">
+                    <div class="portfolio-img">
+                        <img src="" alt="Landing Page Produk">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-tag">Landing Page</span>
+                        <h3>SmartWatch X</h3>
+                        <p>Landing page penjualan satu produk unggulan dengan copywriting persuasif.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="currentYear">2026</span> webinz. Hak Cipta Dilindungi.<br>Membangun jejak digital untuk bisnis masa depan.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
